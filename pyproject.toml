@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-hackathon-2024"
+version = "0.1.0"
+description = ""
+authors = ["Bendrininkai <bendrininkai@varomdarom.lt>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+scikit-learn = "^1.4.2"
+loguru = "^0.7.2"
+ruff = "^0.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
