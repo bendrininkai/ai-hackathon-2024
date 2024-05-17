@@ -5,11 +5,13 @@ description = ""
 authors = ["Bendrininkai <bendrininkai@varomdarom.lt>"]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.11,<=3.12.3"
 pandas = "^2.2.2"
 scikit-learn = "^1.4.2"
 loguru = "^0.7.2"
 ruff = "^0.4.4"
+statsmodels = "^0.14.2"
+keras = "^3.3.3"
 
 
 [build-system]
